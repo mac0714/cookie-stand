@@ -11,13 +11,13 @@ var store1 = {
   minCustomer: 23,
   maxCustomer: 65,
   avgCookies: 6.3,
-  dailySales: [], //Cal avg sales per day.
-  dailyCustomers: [], //Cal avg Customers per day.
+  dailySales: [],
+  dailyCustomers: [],
   calculateNumberCustomers: function() {
-    return Math.random() * (this.maxCustomer - this.minCustomer) + this.minCustomer; //Avg custumer per hour.
+    return Math.random() * (this.maxCustomer - this.minCustomer) + this.minCustomer;
   },
   calculateHourlySales: function(customer) {
-    return customer * this.avgCookies; //Avg sale per hour.
+    return customer * this.avgCookies;
   },
   calculateDailySale: function() {
     for(var i = 0; i < time.length; i++) {
@@ -37,8 +37,8 @@ var store2 = {
   minCustomer: 3,
   maxCustomer: 24,
   avgCookies: 1.2,
-  dailySales: [], //
-  dailyCustomers: [], //
+  dailySales: [],
+  dailyCustomers: [],
   calculateNumberCustomers: function() {
     return Math.random() * (this.maxCustomer - this.minCustomer) + this.minCustomer;
   },
@@ -63,8 +63,8 @@ var store3 = {
   minCustomer: 11,
   maxCustomer: 38,
   avgCookies: 3.7,
-  dailySales: [], //
-  dailyCustomers: [], //
+  dailySales: [],
+  dailyCustomers: [],
   calculateNumberCustomers: function() {
     return Math.random() * (this.maxCustomer - this.minCustomer) + this.minCustomer;
   },
@@ -90,8 +90,8 @@ var store4 = {
   minCustomer: 20,
   maxCustomer: 38,
   avgCookies: 2.3,
-  dailySales: [], //
-  dailyCustomers: [], //
+  dailySales: [],
+  dailyCustomers: [],
   calculateNumberCustomers: function() {
     return Math.random() * (this.maxCustomer - this.minCustomer) + this.minCustomer;
   },
@@ -117,8 +117,8 @@ var store5 = {
   minCustomer: 2,
   maxCustomer: 16,
   avgCookies: 4.6,
-  dailySales: [], //
-  dailyCustomers: [], //
+  dailySales: [],
+  dailyCustomers: [],
   calculateNumberCustomers: function() {
     return Math.random() * (this.maxCustomer - this.minCustomer) + this.minCustomer;
   },
